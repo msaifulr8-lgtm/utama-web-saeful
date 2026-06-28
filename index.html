@@ -1,107 +1,493 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Agency - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="jssor.slider.mini.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="jssor.slider.mini.js"></script>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
-    <title>Web Pertama ku</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Profile</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Product">Product</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<div class="jumbotron jumbotron-fluid">
-    <div class="container" style="text-align:center">
-
-        <img src="Gp.jpeg" width="200" height="200" class="rounded-circle">
-        <h1 class="display-6">M Saeful R</h1>
-        <p class="lead">Terima Kasih Sudah Berkunjung web saya</p>
-    </div>
-    </div>
-
-
-    <section id="About" class="About">
-        <div class="container" align="justify">
-            <div class="Row">
-                <div class="col">
-                    <h1 class="text-center">About</h1>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Menu Kopi">Menu Kopi</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Pemilik">Pemilik</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Best Product">Best Product</a></li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                 <div class="masthead-heading text-uppercase">KOPI NUSANTARA</div>
+                <div class="masthead-subheading">Racikan kopi berkualitas dengan cita rasa khas Indonesia</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+            </div>
+        </header>
+
+
+     <div class="jumbotron jumbotron-fluid">
+    <div class="container" style="text-align:center">
+
+        <img src="/assets/img/logos/Logo.png" width="200" height="200" class="rounded-circle">
+        <h1 class="display-6">Terima Kasih Telah Berkunjung KOPI NUSANTARA</h1>
+        <p class="lead">Kepuasan Anda adalah semangat kami. Nikmati cita rasa kopi terbaik dari berbagai penjuru Nusantara. </p>
+    </div>
+    </div>
+
+        
+  <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $Idle: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 800,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $Cols: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
+
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                },
+
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                    $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $AutoCenter: 0,                                 //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+                    $Rows: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+                    $SpacingX: 3,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                    $SpacingY: 3,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+                    $Cols: 9,                              //[Optional] Number of pieces to display, default value is 1
+                    $ParkingPosition: 260,                          //[Optional] The offset position to park thumbnail
+                    $Orientation: 1,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+                    $NoDrag: false                            //[Optional] Disable drag or not, default value is false
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1400));
+                else
+                    window.setTimeout(ScaleSlider, 20);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+    <div style="position: relative; width: 100%; background-color: #343a40; overflow: hidden;" class="mt-5">
+        <div style="position: relative; left: 50%; width: 5000px; text-align: center; margin-left: -2500px;">
+            <!-- Jssor Slider Begin -->
+            <div id="slider1_container" style="position: relative; margin: 0 auto;
+                top: 0px; left: 0px; width: 980px; height: 460px; background: url(../img/major/main_bg.jpg) top center no-repeat;">
+                <!-- Loading Screen -->
+                <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
+                        top: 0px; left: 0px; width: 100%; height: 100%;">
+                    </div>
+                    <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                        top: 0px; left: 0px; width: 100%; height: 100%;">
+                    </div>
+                </div>
+                <!-- Slides Container -->
+                <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 980px;
+                    height: 460px; overflow: hidden;">
+                    <div>
+                        <div style="position: absolute; width: 480px; height: 300px; top: 10px; left: 10px;
+                            text-align: left; line-height: 1.8em; font-size: 12px;">
+                            <br />
+                            <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 42px;
+                                color: #FFFFFF;">NIKMATI SETIAP TEGUK KOPI</span>
+                            <br />
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 20px; color: #FFFFFF;">
+                              
+                            </span>
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 18px; color: #FFFFFF;">
+                               Rasakan kehangatan dan cita rasa kopi pilihan dari biji terbaik Nusantara. <br> Disangrai dengan sempurna untuk menghadirkan aroma yang kaya dan rasa yang tak terlupakan.
+                                
+                            </span>
+                            <br />
+                            <a href="#NewProduct">
+                                   
+                            </a>
+                        </div>
+                        <img src="/Kopi/Kopi-Bengkulu.jpg" style="position: absolute; top: 23px; left: 480px; width: 500px; height: 350px;" />
+                        <img u="thumb" src="/Kopi/Kopi-Bengkulu.jpg" />
+                    </div>
+                    <div>
+                        <div style="position: absolute; width: 480px; height: 300px; top: 10px; left: 10px;
+                            text-align: left; line-height: 1.8em; font-size: 12px;">
+                            <br />
+                            <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 42px;
+                                color: #FFFFFF;">CITA RASA KOPI NUSANTARA</span>
+                            <br />
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 20px; color: #FFFFFF;">
+                                
+                            </span>
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 18px; color: #FFFFFF;">
+                               Nikmati kopi premium dengan aroma khas, rasa yang seimbang, <br>
+                              kualitas terbaik untuk menemani setiap aktivitas Anda.
+                            </span>
+                            <br />
+                            <a href="https://www.asus.com/id/laptops/for-gaming/">
+                                
+                            </a>
+                        </div>
+                        <img src="/Kopi/Kopi-Flores-Bajawa.jpg" style="position: absolute; top: 23px; left: 480px; width: 500px; height: 350px;" />
+                        <img u="thumb" src="/Kopi/Kopi-Flores-Bajawa.jpg" />
+                    </div>
+                    <div>
+                        <div style="position: absolute; width: 480px; height: 300px; top: 10px; left: 10px;
+                            text-align: left; line-height: 1.8em; font-size: 12px;">
+                            <br />
+                            <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 42px;
+                                color: #FFFFFF;">AROMA YANG MEMIKAT</span>
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 20px; color: #FFFFFF;">
+                                
+                            </span>
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 18px; color: #FFFFFF;">
+                               Temukan kenikmatan kopi yang kaya aroma<br> dan menghadirkan pengalaman minum kopi yang istimewa.
+                            </span>
+                            <br />
+                            <a href="https://www.asus.com/id/laptops/for-work/expertbook/">
+                               
+                            </a>
+                        </div>
+                        <img src="/Kopi/Kopi-Gayo-Aceh.jpg" style="position: absolute; top: 23px; left: 480px; width: 500px; height: 350px;" />
+                        <img u="thumb" src="/Kopi/Kopi-Gayo-Aceh.jpg" />
+                    </div>
+                    <div>
+                        <div style="position: absolute; width: 480px; height: 300px; top: 10px; left: 10px;
+                            text-align: left; line-height: 1.8em; font-size: 12px;">
+                            <br />
+                            <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 42px;
+                                color: #FFFFFF;">RASAKAN NIKMATNYA KOPI PILIHAN</span>
+                            <br />
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 20px; color: #FFFFFF;">
+                                
+                            </span>
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 18px; color: #FFFFFF;">
+                              Nikmati kelezatan dengan aroma yang harum, rasa yang kaya, <br>dan kualitas premium.
+                            </span>
+                            <br />
+                            <a href="#NewProduct">
+                                
+                            </a>
+                        </div>
+                        <img src="/Kopi/Kopi-Jawa.jpg" style="position: absolute; top: 23px; left: 480px; width: 500px; height: 350px;" />
+                        <img u="thumb" src="/Kopi/Kopi-Jawa.jpg" />
+                    </div>
+                    <div>
+                        <div style="position: absolute; width: 480px; height: 300px; top: 10px; left: 10px;
+                            text-align: left; line-height: 1.8em; font-size: 12px;">
+                            <br />
+                            <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 42px;
+                                color: #FFFFFF;">AWALI HARI DENGAN SECANGKIR KOPI</span>
+                            <br />
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 20px; color: #FFFFFF;">
+                               
+                            </span>
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 18px; color: #FFFFFF;">
+                              Setiap biji dipilih dan disangrai dengan sempurna untuk memberikan pengalaman terbaik di setiap tegukan.
+                            </span>
+                            <br />
+                            <a href="https://www.asus.com/id/laptops/for-home/zenbook/" target="_blank">
+                               
+                            </a>
+                        </div>
+                        <img src="/Kopi/kopi-luwak.jpg" style="position: absolute; top: 23px; left: 480px; width: 500px; height: 350px;" />
+                        <img u="thumb" src="/Kopi/kopi-luwak.jpg" />
+                    </div>
+                    <div>
+                        <div style="position: absolute; width: 480px; height: 300px; top: 10px; left: 10px;
+                            text-align: left; line-height: 1.8em; font-size: 12px;">
+                            <br />
+                            <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 42px;
+                                color: #FFFFFF;">KUALITAS DALAM SETIAP SEDUHAN</span>
+                            <br />
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 20px; color: #FFFFFF;">
+                                
+                            </span>
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 18px; color: #FFFFFF;">
+                              Kahwa Roastery menghadirkan kopi pilihan dengan rasa yang kaya, aroma yang memikat, dan kualitas terbaik.
+                             
+                            </span>
+                            <br />
+                            <a href="#BestProduct">
+                              
+                            </a>
+                        </div>
+                        <img src="/Kopi/Kopi-Malabar.jpg" style="position: absolute; top: 23px; left: 480px; width: 500px; height: 350px;" />
+                        <img u="thumb" src="/Kopi/Kopi-Malabar.jpg" />
+                    </div>
+                    <div>
+                        <div style="position: absolute; width: 480px; height: 300px; top: 10px; left: 10px;
+                            text-align: left; line-height: 1.8em; font-size: 12px;">
+                            <br />
+                            <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 42px;
+                                color: #FFFFFF;">TEMUKAN CITA RASA KOPI TERBAIK</span>
+                            <br />
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 20px; color: #FFFFFF;">
+                               
+                            </span>
+                            <br />
+                            <span style="display: block; line-height: 1.1em; font-size: 18px; color: #FFFFFF;">
+                               Nikmati keistimewaan kopi pilihan dari biji berkualitas yang diproses dengan penuh ketelitian. <br>
+                               menghadirkan kenikmatan kopi asli Nusantara dalam setiap cangkir.
+                            </span>
+                            <br />
+                            <a href="#NewProduct">
+                               
+                            </a>
+                        </div>
+                        <img src="/Kopi/Kopi-Toraja.jpg" style="position: absolute; top: 23px; left: 480px; width: 500px; height: 350px;" />
+                        <img u="thumb" src="/Kopi/Kopi-Toraja.jpg" />
+                    </div>
+                </div>
+                
+                <style>
+                    /* jssor slider arrow navigator skin 07 css */
+                    /*
+                    .jssora07l                  (normal)
+                    .jssora07r                  (normal)
+                    .jssora07l:hover            (normal mouseover)
+                    .jssora07r:hover            (normal mouseover)
+                    .jssora07l.jssora07ldn      (mousedown)
+                    .jssora07r.jssora07rdn      (mousedown)
+                    .jssora07l.jssora07lds      (disabled)
+                    .jssora07r.jssora07rds      (disabled)
+                    */
+                    .jssora07l, .jssora07r {
+                        display: block;
+                        position: absolute;
+                        /* size of arrow element */
+                        width: 50px;
+                        height: 50px;
+                        cursor: pointer;
+                        background: url(assets/a07.png) no-repeat;
+                        overflow: hidden;
+                    }
+                    .jssora07l { background-position: -5px -35px; }
+                    .jssora07r { background-position: -65px -35px; }
+                    .jssora07l:hover { background-position: -125px -35px; }
+                    .jssora07r:hover { background-position: -185px -35px; }
+                    .jssora07l.jssora07ldn { background-position: -245px -35px; }
+                    .jssora07r.jssora07rdn { background-position: -305px -35px; }
+
+                    .jssora07l.jssora07lds { background-position: -5px -35px; opacity: .3; pointer-events: none; }
+                    .jssora07r.jssora07rds { background-position: -65px -35px; opacity: .3; pointer-events: none; }
+                </style>
+                <!-- Arrow Left -->
+                <span u="arrowleft" class="jssora07l" style="top: 123px; left: 8px;">
+                </span>
+                <!-- Arrow Right -->
+                <span u="arrowright" class="jssora07r" style="top: 123px; right: 8px;">
+                </span>
+                <!--#endregion Arrow Navigator Skin End -->
+                
+            <!--#region Thumbnail Navigator Skin Begin -->
+            <!-- Help: http://www.jssor.com/help/thumbnail-navigator.html -->
+            <style>
+                /* jssor slider thumbnail navigator skin 04 css */
+                /*
+                .jssort04 .p            (normal)
+                .jssort04 .p:hover      (normal mouseover)
+                .jssort04 .pav          (active)
+                .jssort04 .pav:hover    (active mouseover)
+                .jssort04 .pdn          (mousedown)
+                */
+
+                .jssort04 {
+                    position: absolute;
+                    /* size of thumbnail navigator container */
+                    width: 600px;
+                    height: 60px;
+                }
+
+                    .jssort04 .p {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 62px;
+                        height: 32px;
+                    }
+
+                    .jssort04 .t {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                    }
+
+                    .jssort04 .w, .jssort04 .pav:hover .w {
+                        position: absolute;
+                        width: 60px;
+                        height: 30px;
+                        border: #0099FF 1px solid;
+                        box-sizing: content-box;
+                    }
+
+                    .jssort04 .pdn .w, .jssort04 .pav .w {
+                        border-style: dashed;
+                    }
+
+                    .jssort04 .c {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 62px;
+                        height: 32px;
+                        background-color: #000;
+                        filter: alpha(opacity=45);
+                        opacity: .45;
+                        transition: opacity .6s;
+                        -moz-transition: opacity .6s;
+                        -webkit-transition: opacity .6s;
+                        -o-transition: opacity .6s;
+                    }
+
+                    .jssort04 .p:hover .c, .jssort04 .pav .c {
+                        filter: alpha(opacity=0);
+                        opacity: 0;
+                    }
+
+                    .jssort04 .p:hover .c {
+                        transition: none;
+                        -moz-transition: none;
+                        -webkit-transition: none;
+                        -o-transition: none;
+                    }
+
+                    * html .jssort04 .w {
+                        width /**/: 62px;
+                        height /**/: 32px;
+                    }
+            </style>
+            <!-- thumbnail navigator container -->
+            <div u="thumbnavigator" class="jssort04" style="right: 0px; bottom: 0px;">
+                <!-- Thumbnail Item Skin Begin -->
+                <div u="slides" style="bottom: 25px; right: 30px; cursor: default;">
+                    <div u="prototype" class="p">
+                        <div class=w><div u="thumbnailtemplate" class="t"></div></div>
+                        <div class=c></div>
+                    </div>
+                </div>
+                <!-- Thumbnail Item Skin End -->
+            </div>
+            <!--#endregion Thumbnail Navigator Skin End -->
+                <a style="display: none" href="http://www.jssor.com">jQuery Slider</a>
+            </div>
+            <!-- Jssor Slider End -->
+        </div>
+    </div>
 
 
         
-
-           <div class="row">
-             <div class="col">
-                <p>
-                    Sepatu merupakan salah satu kebutuhan penting dalam kehidupan sehari-hari yang berfungsi untuk melindungi kaki dari berbagai bahaya seperti benda tajam, panas, dan kotoran.
-                </p>
-             </div>
-
-             
-             <div class="col">
-                <p>
-                    Terdapat berbagai jenis sepatu yang dapat digunakan sesuai dengan kebutuhan, seperti sepatu olahraga, sepatu formal, dan sepatu kasual. Setiap jenis sepatu memiliki fungsi dan keunggulan masing-masing.
-                </p>
-           </div>
-           </div>
-        </section>
-
-    <section id="slact" class="slact">
-        <div class="container" align="justify">
-            <div class="Row">
-                <div class="col">
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h3 class="section-subheading text-muted">Nikmati cita rasa kopi terbaik dengan kualitas premium dan pelayanan yang istimewa.</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Kopi Berkualitas</h4>
+                        <p class="text-muted">Kami menyajikan biji kopi pilihan dari berbagai daerah di Indonesia yang diproses dengan teliti untuk menghasilkan aroma dan cita rasa yang khas.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3"> Racikan Spesial</h4>
+                        <p class="text-muted">Setiap minuman diracik oleh barista berpengalaman menggunakan bahan-bahan berkualitas sehingga menghasilkan rasa yang nikmat di setiap tegukan.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Pelayanan Terbaik</h4>
+                        <p class="text-muted">Kami mengutamakan pelayanan yang ramah, cepat, dan profesional agar setiap pelanggan merasa nyaman dan puas saat menikmati kopi.</p>
+                    </div>
                 </div>
             </div>
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="NIKE.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="Adidas.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="PUMA.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-      <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </button>
-      </div>
-    </section>
+        </section>
 
-<section id="Product" class="Product">
+<section id="Best Product" class="Best Product">
       <div class="container">
         <div class="row">
           <div class="col" style="text-align: center">
-            <h1>Product</h1>
+            <h1>BestProduct</h1>
           </div>
         </div>
 
@@ -109,14 +495,14 @@
           <div class="col">
             <div class="card" style="width: 18rem">
               <img
-                src="NIKE.jpg"
+                src="assets/img/portfolio/Kopi-Toraja.jpg"
                 class="card-img-top"
-                alt="NIKE"
+                alt="Kopi Toraja"
               />
               <div class="card-body">
-                <h3>NIKE</h3>
+                <h3>Kopi Toraja</h3>
                 <p class="card-text">
-                  Sepatu Nike dikenal dengan desain modern dan teknologi canggih yang memberikan kenyamanan maksimal. Cocok digunakan untuk olahraga maupun aktivitas sehari-hari, dengan tampilan yang stylish dan elegan.
+                 Kopi Toraja memiliki cita rasa yang kaya dan kompleks, dengan aroma yang khas. Cocok untuk dinikmati oleh para pecinta kopi yang menginginkan pengalaman minum kopi yang mendalam.
                 </p>
               </div>
             </div>
@@ -125,14 +511,14 @@
           <div class="col">
             <div class="card" style="width: 18rem">
               <img
-                src="Adidas.jpg"
+                src="assets/img/portfolio/Kopi-Luwak.jpg"
                 class="card-img-top"
-                alt="Adidas"
+                alt="Kopi Luwak"
               />
               <div class="card-body">
-                <h3>ADIDAS</h3>
+                <h3>Kopi Luwak</h3>
                 <p class="card-text">
-                  Sepatu Adidas menawarkan kombinasi antara kenyamanan, kualitas, dan performa tinggi. Dilengkapi dengan teknologi bantalan yang baik, sepatu ini sangat cocok untuk olahraga seperti lari dan training.
+                  Kopi Luwak dikenal sebagai salah satu kopi paling enak, karena proses produksinya yang unik dan rumit. Cita rasanya yang khas dan halus membuatnya sangat dicari oleh para pecinta kopi.
                 </p>
               </div>
             </div>
@@ -141,67 +527,270 @@
           <div class="col">
             <div class="card" style="width: 18rem">
               <img
-                src="PUMA.jpg"
+                src="assets/img/portfolio/Kopi-Malabar.jpg"
                 class="card-img-top"
-                alt="Puma"
+                alt="Kopi Malabar"
               />
               <div class="card-body">
-                <h3>PUMA</h3>
+                <h3>Kopi Malabar</h3>
                 <p class="card-text">
-                  Sepatu Puma memiliki desain yang sporty dan trendi. Ringan saat digunakan dan nyaman di kaki, sehingga cocok untuk aktivitas santai maupun kegiatan olahraga ringan.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card" style="width: 18rem">
-              <img
-                src="Vans.jpg"
-                class="card-img-top"
-                alt="Vans"
-              />
-              <div class="card-body">
-                <h3>VANS</h3>
-                <p class="card-text">
-                  Sepatu Vans terkenal dengan gaya kasual dan desain simpel. Biasanya digunakan untuk aktivitas santai atau skateboarding, dengan sol yang kuat dan daya cengkram yang baik.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card" style="width: 18rem">
-              <img
-                src="Converse.jpg"
-                class="card-img-top"
-                alt="Converse"
-              />
-              <div class="card-body">
-                <h3>CONVERSE</h3>
-                <p class="card-text">
-                  Sepatu Converse memiliki model klasik yang tidak lekang oleh waktu. Dengan bahan kanvas yang ringan dan desain high-top atau low-top, sepatu ini cocok untuk berbagai gaya fashion.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card" style="width: 18rem">
-              <img src="Balance.jpg" class="card-img-top" alt="Balance" />
-              <div class="card-body">
-                <h3>BALANCE</h3>
-                <p class="card-text">
-                  Sepatu New Balance mengutamakan kenyamanan dan kestabilan. Memiliki desain ergonomis dan cocok digunakan untuk aktivitas sehari-hari maupun olahraga ringan.
+                  Kopi Malabar memiliki cita rasa yang khas dan aroma yang menarik. Dikenal dengan kualitas tinggi dan proses perawatan yang teliti, kopi ini menjadi pilihan favorit para pecinta kopi.
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        </Section>
 
-     <hr />
+
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="Menu Kopi">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Menu Kopi</h2>
+                    <h3 class="section-subheading text-muted">Nikmati pilihan kopi terbaik dengan cita rasa khas Nusantara</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Kopi-Bengkulu.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kopi Bengkulu</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.50.000</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Kopi-flores-Bajawa.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kopi Flores Bajawa</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.45.000</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Kopi-Gayo-Aceh.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kopi Gayo</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.40.000</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Kopi-Jawa.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kopi Jawa</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.35.000</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Kopi-Luwak.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kopi Luwak</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.45.000</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Kopi-Malabar.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kopi Malabar</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.80.000</div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Kopi-Mandaling.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kopi Mandaling</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.65.000</div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Kopi-Toraja.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kopi Toraja</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.65.000</div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/Kopi-Wamena-Papua.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kopi Wamena</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.80.000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+     <div class="container mt-5">
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width:18rem;">
+            <img src="Qris Pay.jpeg" class="card-img-top" alt="QRIS">
+
+            <div class="card-body text-center">
+                <h5 class="card-title">Pembayaran QRIS</h5>
+
+                <p class="card-text">
+                    Scan kode QRIS untuk melakukan pembayaran dengan mudah,
+                    cepat, dan aman.
+                </p>
+
+                <a href="#" class="btn btn-warning">
+                    Bayar Sekarang
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+                
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">Nikmati Kelezatan Kopi asli Indonesia yang Disajikan dengan Penuh Cinta</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/GK-1.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009–2011</h4>
+                                <h4 class="subheading">Awal Perjalanan Kami</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Perjalanan kami dimulai dari kecintaan terhadap kopi asli Indonesia. Kami memilih biji kopi berkualitas langsung dari para petani lokal untuk menghadirkan cita rasa yang autentik di setiap cangkir.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/GK-2-N.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Maret 2011</h4>
+                                <h4 class="subheading">Kedai Kopi Pertama Dibuka</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Dengan semangat menyajikan kopi terbaik, kami membuka kedai pertama sebagai tempat berkumpul para pecinta kopi. Setiap seduhan dibuat dengan penuh perhatian untuk memberikan pengalaman yang berkesan.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/GK-3-N.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Desember 2012</h4>
+                                <h4 class="subheading">Mengembangkan Layanan</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Kami mulai memperluas pilihan menu dengan menghadirkan berbagai kopi nusantara seperti Kopi Gayo, Toraja, Kintamani, Flores Bajawa, Mandailing, Wamena Papua, dan Kopi Luwak, sehingga pelanggan dapat menikmati kekayaan rasa kopi Indonesia.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/GK-4.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Sekarang</h4>
+                                <h4 class="subheading">Terus Menyajikan yang Terbaik</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Hingga saat ini, kami berkomitmen menyajikan kopi berkualitas tinggi dengan bahan pilihan, pelayanan yang ramah, dan suasana yang nyaman agar setiap kunjungan menjadi pengalaman yang istimewa.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="Pemilik">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Pemilik Kopi Nusantara</h2>
+                    <h3 class="section-subheading text-muted">Team kami yang ramah dan profesional</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/25.240.0022.jpg" alt="" />
+                            <h4>M. Saeful Romadhona</h4>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">"Sebagai pemilik Kopi Nusantara, saya percaya bahwa secangkir kopi terbaik lahir dari biji kopi berkualitas, proses yang teliti, dan pelayanan yang tulus. Terima kasih telah menjadi bagian dari perjalanan kami."</p></div>
+                </div>
+            </div>
+        </section>
+ 
+
+          <hr />
     <section id="contact" class="contact">
       <div class="container p-5">
         <div class="row pb-5">
@@ -224,25 +813,16 @@
                   the bulk of the card's content.
                 </p>
                 <div class="embed-responsive embed-responsive-16by9 mt-3">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.128681001033!2d109.66204547553977!3d-6.8751819931236025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7025d80e03b5e9%3A0x3be4e1ed9ecee65c!2sInstitut%20Widya%20Pratama!5e0!3m2!1sid!2sid!4v1776514395067!5m2!1sid!2sid"
-                    width="600"
-                    height="450"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.2957139906055!2d109.67158045125869!3d-6.868679892361661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7025dc520b2169%3A0x765f2fc612916a8c!2sSalam%20Manis%2C%20Kandang%20Panjang%2C%20Kec.%20Pekalongan%20Utara%2C%20Kota%20Pekalongan%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1782649460052!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
               </div>
             </div>
             <br />
             <ul class="list-group">
               <li class="list-group-item">Lokasi</li>
-              <li class="list-group-item">Kantor</li>
+              <li class="list-group-item">TOKO </li>
               <li class="list-group-item">
-                Jl. Patriot No.25, Dukuh, Kec. Pekalongan Utara, Kota
-                Pekalongan, Jawa Tengah 51146
+                SAlAM MANIS, KANDANG PANJANG, PEKALONGAN UTARA, KOTA PEKALONGAN, JAWA TENGAH
               </li>
               <li class="list-group-item">Kota Pekalongan</li>
             </ul>
@@ -271,36 +851,262 @@
         </div>
       </div>
     </section>
+        
+     
+       
 
-  <div class="col text-center">
+    <div class="container">
+      <div class="col text-center">
     <h1>Video</h1>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/25BBZuxtsmg?si=Q8FVDPSEWhGfwm1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+          <iframe width="760" height="415" src="https://www.youtube.com/embed/gvRuqWEucyA?si=xuXxfepZEcI7ROL9"
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
-  </div>
+    </div>
 
-    <section class="section bg-primary" id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col text-white text-center pt-3">
-            <p>Copyright &copy; Muhammad Saeful Romadhona
-            </p>
-          </div>
-       </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 align-self-center text-center">Copyright © Muhammad Saeful Romadhona 2026</div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kopi Bengkulu</h2>
+                                    <p class="item-intro text-muted">Kopi Nusantara</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kopi-Bengkulu.jpg" alt="" />
+                                    <p>Kopi Bengkulu menawarkan aroma yang harum dengan cita rasa yang lembut dan seimbang. Ditanam di dataran tinggi Bengkulu, kopi ini menjadi pilihan tepat bagi penikmat kopi yang menginginkan rasa autentik.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kopi Flores Bajawa</h2>
+                                    <p class="item-intro text-muted">Kopi Nusantara</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kopi-Flores-Bajawa.jpg" alt="" />
+                                    <p>Kopi Flores Bajawa dikenal dengan karakter rasa yang kaya, sedikit manis, dan aroma rempah yang unik. Ditanam di tanah vulkanik Flores, kopi ini menghadirkan cita rasa khas Indonesia Timur.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kopi Gayo</h2>
+                                    <p class="item-intro text-muted">Kopi Nusantara</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kopi-Gayo-Aceh.jpg" alt="" />
+                                    <p>Kopi Gayo berasal dari dataran tinggi Aceh dan dikenal sebagai salah satu kopi terbaik Indonesia. Memiliki aroma yang segar, cita rasa yang kompleks, serta tingkat keasaman yang seimbang sehingga memberikan sensasi nikmat di setiap tegukan.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kopi Jawa</h2>
+                                    <p class="item-intro text-muted">Kopi Nusantara</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kopi-Jawa.jpg" alt="" />
+                                    <p>Kopi Jawa merupakan salah satu kopi legendaris Indonesia yang telah dikenal hingga mancanegara. Memiliki aroma yang lembut, cita rasa seimbang, serta sentuhan manis alami, kopi ini memberikan pengalaman menikmati secangkir kopi yang klasik dan berkelas.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kopi Luwak</h2>
+                                    <p class="item-intro text-muted">Kopi Nusantara</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kopi-Luwak.jpg" alt="" />
+                                    <p>Kopi Luwak merupakan salah satu kopi paling terkenal di dunia. Diproses secara alami sehingga menghasilkan cita rasa yang lembut, rendah rasa pahit, dan memiliki aroma yang sangat khas serta premium.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kopi Malabar</h2>
+                                    <p class="item-intro text-muted">Kopi Nusantara</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kopi-malabar.jpg" alt="" />
+                                    <p>Kopi Malabar berasal dari pegunungan Malabar, Jawa Barat. Memiliki aroma floral yang khas, tingkat keasaman yang seimbang, serta rasa lembut yang memberikan pengalaman menikmati kopi yang istimewa.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kopi Mandaling</h2>
+                                    <p class="item-intro text-muted">Kopi Nusantara</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kopi-Mandaling.jpg" alt="" />
+                                    <p>Kopi Mandailing berasal dari Sumatera Utara dengan karakter rasa yang kaya, body yang tebal, dan aroma cokelat yang menggoda. Cocok bagi penikmat kopi dengan cita rasa yang kuat namun tetap lembut.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    -->
-  </body>
+      
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kopi Toraja</h2>
+                                    <p class="item-intro text-muted">Kopi Nusantara</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kopi-Toraja.jpg" alt="" />
+                                    <p>Kopi Toraja berasal dari Sulawesi Selatan dan terkenal dengan cita rasa yang kuat serta aroma yang khas. Perpaduan rasa cokelat, rempah, dan sedikit earthy menjadikan kopi ini favorit para pecinta kopi premium.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kopi Wamena Papua</h2>
+                                    <p class="item-intro text-muted">Kopi Nusantara</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Kopi-Wamena-Papua.jpg" alt="" />
+                                    <p>Kopi Wamena Papua tumbuh di dataran tinggi Papua dengan kondisi alam yang masih alami. Memiliki rasa yang halus, tingkat keasaman rendah, dan aroma yang lembut sehingga nyaman dinikmati kapan saja.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
